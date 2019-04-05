@@ -1,0 +1,26 @@
+{
+  "name": "bcdb",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shaun M. Baer",
+  "license": "ISC",
+  "bin": {
+    "bcdb-node": "./bin/bcdb.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "fs-extra": "^7.0.1",
+    "mysql": "^2.16.0",
+    "node-cmd": "^3.0.0",
+    "qoa": "^0.2.0",
+    "request": "^2.88.0",
+    "rsync": "^0.6.1",
+    "yargs": "^13.2.2",
+    "zlib": "^1.0.5"
+  }
+}
