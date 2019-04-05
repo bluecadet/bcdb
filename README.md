@@ -43,6 +43,11 @@ After installing BCDB, run `bcdb config`. You will be asked to enter your Panthe
 In a project root directory, run `bcdb init`. This will ask a series of questions to initialize project configuration.
 
 
-### pull
+### pull [--exclude=file/path]
 
 Run `bcdb pull` to pull a database or files from a specfic Pantheon enviornment
+
+You can optionally pass directories or other rsync `exclude` parameters with the `--exclude=` argument. Seperate excludes with a comma:
+
+`bcdb pull --exclude=files/path`
+`bcdb pull --exclude=files/path,another/path`
