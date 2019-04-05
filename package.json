@@ -13,7 +13,7 @@
   "author": "Shaun M. Baer",
   "license": "ISC",
   "bin": {
-    "bcdb-node": "./bin/bcdb.js"
+    "bcdb": "./bin/bcdb.js"
   },
   "preferGlobal": true,
   "dependencies": {
