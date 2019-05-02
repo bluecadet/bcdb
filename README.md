@@ -29,7 +29,7 @@ Additionally, [generate and/or add an SSH key](https://pantheon.io/docs/ssh-keys
 
 ### Install BCDB
 
-`npm install -g bcdb`
+`npm install -g @bluecadet/bcdb`
 
 
 ## Usage
