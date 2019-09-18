@@ -29,7 +29,9 @@ Additionally, [generate and/or add an SSH key](https://pantheon.io/docs/ssh-keys
 
 ### Install BCDB
 
-`npm install -g @bluecadet/bcdb`
+```
+$ npm install -g @bluecadet/bcdb
+```
 
 
 ## Usage
@@ -43,11 +45,20 @@ After installing BCDB, run `bcdb config`. You will be asked to enter your Panthe
 In a project root directory, run `bcdb init`. This will ask a series of questions to initialize project configuration.
 
 
-### pull [--exclude=file/path]
+### pull [--force] [-f] [--exclude=file/path]
 
 Run `bcdb pull` to pull a database or files from a specfic Pantheon enviornment
 
+To override the backup expiration and force a new database backup to be created, use the
+`--force` or `-f` flag:
+
+```
+$ bcdb pull -f
+```
+
 You can optionally pass directories or other rsync `exclude` parameters with the `--exclude=` argument. Seperate excludes with a comma:
 
-`bcdb pull --exclude=files/path`
-`bcdb pull --exclude=files/path,another/path`
+```
+$ bcdb pull --exclude=files/path
+$ bcdb pull --exclude=files/path,another/path
+```
