@@ -1,9 +1,9 @@
 {
   "name": "@bluecadet/bcdb",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "bugs": {
-    "url" : "https://github.com/bluecadet/bcdb/issues"
+    "url": "https://github.com/bluecadet/bcdb/issues"
   },
   "repository": "github:bluecadet/bcdb",
   "main": "index.js",
@@ -18,13 +18,13 @@
   "preferGlobal": true,
   "dependencies": {
     "chalk": "^2.4.2",
-    "fs-extra": "^7.0.1",
-    "mysql": "^2.16.0",
+    "fs-extra": "^8.1.0",
+    "mysql": "^2.17.1",
     "node-cmd": "^3.0.0",
     "qoa": "^0.2.0",
     "request": "^2.88.0",
     "rsync": "^0.6.1",
-    "yargs": "^13.2.2",
+    "yargs": "^14.0.0",
     "zlib": "^1.0.5"
   }
 }
