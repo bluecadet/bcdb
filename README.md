@@ -5,20 +5,15 @@
 
 ## **BCDB is now part of [Cadet](https://github.com/bluecadet/cadet) (see `cadet pull`)**
 
-~
-~
-~
-~
-~
-~
+## Deprecated
 
 Easily pull databases and files from Pantheon to a local MAMP instance.
 
-## Installation
+### Installation
 
-### [Install MAMP](https://www.mamp.info/en/downloads/)
+#### [Install MAMP](https://www.mamp.info/en/downloads/)
 
-### [Install Terminus](https://pantheon.io/docs/terminus/install/)
+#### [Install Terminus](https://pantheon.io/docs/terminus/install/)
 
 In Terminal, run:
 
@@ -39,25 +34,25 @@ $ terminus auth:login --machine-token=[MACHINE_TOKEN_VALUE]
 Additionally, [generate and/or add an SSH key](https://pantheon.io/docs/ssh-keys/). This will allow you to easily pull files from a site.
 
 
-### Install BCDB
+#### Install BCDB
 
 ```
 $ npm install -g @bluecadet/bcdb
 ```
 
 
-## Usage
+### Usage
 
-### config
+#### config
 
 After installing BCDB, run `bcdb config`. You will be asked to enter your Pantheon Machine Token.
 
-### init
+#### init
 
 In a project root directory, run `bcdb init`. This will ask a series of questions to initialize project configuration.
 
 
-### pull [--force] [-f] [--exclude=file/path]
+#### pull [--force] [-f] [--exclude=file/path]
 
 Run `bcdb pull` to pull a database or files from a specfic Pantheon enviornment
 
