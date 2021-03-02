@@ -1,5 +1,8 @@
 # BCDB
 
+| :warning: BCDB is now part of [Cadet](https://github.com/bluecadet/cadet) (see `cadet pull`) |
+| --- |
+
 Easily pull databases and files from Pantheon to a local MAMP instance.
 
 ## Installation
